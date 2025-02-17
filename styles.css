@@ -1,3 +1,54 @@
-h1 {
-    color: blue
+header{
+    font-family: Serif, Georgia; 
+    font-size: 18px;
+    color: navy; 
+}
+header nav ul{ 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: flex-end;
+}
+header nav ul li{ 
+    margin-left: 10px; 
+}
+
+body {
+    font-family: Monospace, Courier New;
+    background-image: url("background-web.jpg");
+    background-size: cover;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.intro {
+    color: navy; 
+    text-align:center;
+}
+.introcareer {
+    color: peachpuff
+}
+.introimage{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+.intro, .introimage{
+    display: inline-block; 
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.resume, .linkedin{
+    text-align: center; 
+    display: inline-block; 
+    margin: 10px;
+    justify-content: flex-start;
 }
