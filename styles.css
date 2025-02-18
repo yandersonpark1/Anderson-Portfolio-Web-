@@ -10,6 +10,7 @@ header nav ul{
     display: flex; 
     justify-content: flex-end;
 }
+
 header nav ul li{ 
     margin-left: 10px; 
 }
@@ -60,5 +61,11 @@ ul {
 
 .lang, .skillset{
     display: flex;
-    margin: 20px; 
+    margin-bottom: 20px; 
+}
+
+.lang li, .skillset li{
+    display: flex;
+    margin-right: 20px; 
+    
 }
