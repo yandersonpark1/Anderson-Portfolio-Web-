@@ -14,6 +14,12 @@ header nav ul li{
     margin-left: 10px; 
 }
 
+.break_line {
+    border-top: 1px;;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 body {
     font-family: Monospace, Courier New;
     background-image: url("background-web.jpg");
@@ -30,20 +36,22 @@ body {
     text-align:center;
 }
 .introcareer {
-    color: peachpuff
+    color: peachpuff;
+    text-align:center; 
 }
 .introimage{
     text-align: center;
 }
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .photo {
     text-align: center;
 }
 
-.resume, .linkedin{
+.resume, .linkedin, .github{
     text-align: center; 
     display: inline-block; 
     margin: 10px;
