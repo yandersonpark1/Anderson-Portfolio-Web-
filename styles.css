@@ -38,13 +38,10 @@ body {
 ul {
     list-style-type: none;
 }
-.intro, .introimage{
-    display: inline-block; 
-    margin: auto;
+
+.photo {
     text-align: center;
 }
-
-
 
 .resume, .linkedin{
     text-align: center; 
