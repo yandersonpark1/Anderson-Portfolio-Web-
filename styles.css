@@ -11,6 +11,10 @@ header{
     justify-content: flex-end;
 }
 
+li {
+    text-decoration: none;
+}
+
 .about_header li{ 
     display: flex; 
     margin-left: 10px; 
@@ -60,13 +64,12 @@ ul {
     justify-content: flex-start;
 }
 
-.lang, .skillset{
+.lang, .tech{
     display: flex;
     margin-bottom: 20px; 
 }
 
-.lang li, .skillset li{
+.lang li, .tech li{
     display: flex;
-    margin-right: 20px; 
-    
+    margin-right: 50px; 
 }
