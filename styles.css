@@ -3,7 +3,7 @@ header{
     font-size: 18px;
     color: navy; 
 }
-header nav ul{ 
+.about_header { 
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
@@ -11,7 +11,8 @@ header nav ul{
     justify-content: flex-end;
 }
 
-header nav ul li{ 
+.about_header li{ 
+    display: flex; 
     margin-left: 10px; 
 }
 
@@ -55,7 +56,7 @@ ul {
 .resume, .linkedin, .github{
     text-align: center; 
     display: inline-block; 
-    margin: 10px;
+    margin-right: 15px;
     justify-content: flex-start;
 }
 
