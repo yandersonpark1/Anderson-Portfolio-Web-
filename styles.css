@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 } 
@@ -11,38 +10,42 @@ header{
     color: navy; 
 }
 
-
 .navbar_container {
     background: black; 
+    /* display is keeping eveything from being centered correctly */
     display: flex; 
-    align-items: center; 
-    justify-content: space-between;
+    align-items: center;
     height: 80px;
     z-index: 1000; 
     width: 100%;
     margin: 0 auto;
     padding: 0 50px; 
-    position: fixed;
+    position: sticky;
 }
 
-#navbar_name {
+#navbar_logo {
     color: white;
+    display: flex;
     font-size: 1.5rem;
     margin-right: auto;
     text-decoration: none;
-}
+    display:flex; 
+    align-items: center;
+    justify-content: flex-start;
+}  
 
 
 .navbar_list { 
     display: flex; 
-    justify-content: center; 
+    justify-content: flex-end;
     list-style: none;
     margin: 0 auto;
+    align-items: center;
 } 
+
 
 .navbar_list_item {
     display: flex;
-    justify-content: center;
     height: 80px;
 }
 
@@ -53,7 +56,6 @@ header{
     padding: 0 1rem;
     display: flex; 
     align-items: center;
-    justify-content: center;
 }
 
 
@@ -80,7 +82,7 @@ header{
 }
 
 
-.intro {
+ .intro {
     color: navy; 
     text-align:center;
 }
@@ -112,4 +114,4 @@ header{
 .lang li, .tech li{
     display: flex;
     margin-right: 50px; 
-}
+} 
