@@ -13,6 +13,7 @@ header{
 .navbar_container {
     background: black; 
     /* display is keeping eveything from being centered correctly (Do not flex container will affect the ul and li)*/
+    
     height: 80px;
     z-index: 1000;  
     margin: 0 auto;
@@ -20,10 +21,15 @@ header{
     position: sticky; 
 } 
 
+#navbar-links{
+    display: flex;
+}
+
 
 .navbar_list { 
     display: flex; 
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    flex-direction: row;
     list-style: none;
     margin: 0 auto;
     align-items: center;
