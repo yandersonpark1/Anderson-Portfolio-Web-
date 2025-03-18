@@ -118,24 +118,52 @@ header{
     margin-top: 10px; 
 }
 
-.lang, .tech{
+.lang, .tech {
     display: flex;
     margin: 20px;
     flex-direction: column;
 }
 
-.lang_item {
+
+.lang_item, .tech_item {
     display: flex; 
     justify-content: flex-start;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.lang_itemli, .tech_itemli{
+    margin-right: 20px;
+}
+
+.projects {
+    display: flex; 
+    justify-content: flex;
+    flex-direction: column; 
+    margin: 20px; 
+}
+
+.project_item {
+    display: flex;
+    list-style: none;
+    flex-direction: column; 
+}
+
+.project_itemli {
+    margin: 10px, 0;
+}
+
+.contact {
+    display: flex; 
+    justify-content: flex; 
+    flex-direction: column;
     margin: 20px;
 }
 
-.lang_itemli {
-    margin-right: 15px
+.contact_info {
+    margin-top: 20px;
 }
 
-.lang li, .tech li{
-    display: flex;
-    /* margin-right: 50px;  */
-} 
-
+#copyright {
+    margin: 20px;
+}
