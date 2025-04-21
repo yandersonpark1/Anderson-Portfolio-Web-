@@ -1,0 +1,6 @@
+#Avoid accidental sketch uploads 
+.sketch/
+
+#Avoid accidental XD or Figma upload if converting deisgn files 
+.xd/ 
+.figma/
